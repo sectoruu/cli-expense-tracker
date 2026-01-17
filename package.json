@@ -1,0 +1,18 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "CLI app to track expenses",
+  "license": "ISC",
+  "author": "Artem Lehkun",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "expense-tracker": "./main.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}
